@@ -50,7 +50,7 @@ This is where your custom styles begin.
   height: 100vh;
   z-index: 2;
   position: relative;
-  background-color: rgb(1, 30, 32);
+  background-color: black;
   float: right;
 }
   
