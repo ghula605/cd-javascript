@@ -45,12 +45,115 @@ This is where your custom styles begin.
 }
 
 .viewport {
-  padding: 50px;
   width: 50%;
-  height: 100vh;
+  height: 100%;
   z-index: 2;
-  position: relative;
-  background-color: black;
   float: right;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;;
 }
+
+.color-block {
+  padding: 20px;
+  background-color: black;
+  position: absolute;
+}
+
+.flex-image {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  padding: 50px;
+  align-self: center;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
   
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    margin: 0 auto;
+    z-index: 1;
+  }
+  
+  .text {
+    padding: 50px;
+    height: 100vh;
+    width: 100%;
+    color: rgb(1, 30, 32);
+    text-decoration: none;
+    font-family: 'Tajawal', 'Helvetica', sans-serif;
+    z-index: 1;
+    position: fixed;
+    }
+  
+  .sub-text {
+    letter-spacing: 2px;
+    font-size: 10pt;
+  }
+  
+  #title {
+    font-weight: bold;
+  }
+  
+  .about {
+    font-size: 28pt;
+    font-family: 'Cormorant Infant', serif;
+  }
+  
+  .viewport {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;;
+  }
+  
+  .color-block {
+    padding: 20px;
+    background-color: rgb(198, 228, 219);
+    position: absolute;
+  }
+  
+  .flex-image {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    padding: 50px;
+    align-self: center;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+  }
+}
