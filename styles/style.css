@@ -22,30 +22,17 @@ This is where your custom styles begin.
 .text {
   padding: 50px;
   height: 100vh;
-  width: 50%;
+  width: 53%;
   color: rgb(1, 30, 32);
-  text-decoration: none;
   font-family: 'Tajawal', 'Helvetica', sans-serif;
   z-index: 1;
   position: fixed;
-  }
-
-.sub-text {
-  letter-spacing: 2px;
-  font-size: 12pt;
-}
-
-#title {
-  font-weight: bold;
-}
-
-.about {
   font-size: 32pt;
   font-family: 'Cormorant Infant', serif;
-}
+  }
 
 .viewport {
-  width: 50%;
+  width: 47%;
   height: 100%;
   z-index: 2;
   float: right;
@@ -59,7 +46,7 @@ This is where your custom styles begin.
 
 .color-block {
   padding: 20px;
-  background-color: black;
+  background-color: rgb(1, 30, 32);
   position: absolute;
 }
 
@@ -69,77 +56,4 @@ This is where your custom styles begin.
   max-width: 500px;
   padding: 50px;
   align-self: center;
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-}
-
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-}
-
-@media (max-width: 800px) {
-
-  .text {
-    width: 100%;
-    z-index: 1;
-    }
-  
-  .sub-text {
-    font-size: 10pt;
-  }
-  
-  .about {
-    font-size: 28pt;
-    font-family: 'Cormorant Infant', serif;
-  }
-  
-  .viewport {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    z-index: 1;
-  }
-  
-  .color-block {
-    padding: 20px;
-    background-color: rgb(198, 228, 219);
-    position: relative;
-  }
-  
-  .flex-image {
-    width: 100%;
-    height: auto;
-    max-width: 500px;
-    padding: 50px;
-    align-self: center;
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
-  }
 }
