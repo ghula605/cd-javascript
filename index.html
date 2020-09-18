@@ -17,10 +17,11 @@
     <!-- This is where the style CSS files live. -->
     <!-- Hierchy and order of links matter! "reset.css" goes before "style.css" -->
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
 
-    <marquee>Welcome to my class index for CD Studio: Javascript   ☺︎   Click here to view my personal work   ⚘   I just completed my first project and you are looking at it right now  ☀︎  Have a nice weekend!</marquee>
+    <marquee>Welcome to my class index for CD Studio: Javascript   ☺︎   Click <a class="font-alter" href="" style="  color: rgb(1, 30, 32); text-decoration: none;">here</a> to view my personal work   ⚘   I just completed my first project and you are looking at it right now  ☀︎  Have a nice weekend!</marquee>
   
 </head>
 
@@ -28,32 +29,34 @@
 
     <div class= "grid_container">
 
-        <div class= "grid-item opening-page">
-            <a class= "project-title">Project 1 - Index</a><br><br>
+        <div class= "grid-item landing-page">
+            <div class="landing-text">
+                <a>Hi! My name is Ali Waqar and I like to design things. You can find a bunch of my work here.</a><br><br>
+            </div>
         </div>
 
         <div class= "grid-item title">
-            <a>Work</a>
+            <a>Projects</a>
         </div>
 
         <div class= "grid-item project project-1">
-            <a class= "project-title">Project 1 - Index</a><br><br>
+            <a class= "project-title">Index</a><br><br>
             <img class= "image-sample" src="./assets/image-sample.png"><br><br>
             <p>This assignment tasked us with designing and building a website that be home to a growing index of the work we will create for this class.</p>   </div>
 
         <div class= "grid-item project project-2">
-            <a class= "project-title">Project 2 - Pattern</a><br><br>
+            <a class= "project-title">Pattern</a><br><br>
             <img class= "image-sample" src="./assets/image-sample.png"><br><br>
             <p>This project is considered an exploration into the iterative nature of Javascript.</p>
         </div>
 
         <div class= "grid-item project project-3">
-            <a class= "project-title">Project 3 - API</a><br><br>
+            <a class= "project-title">API</a><br><br>
             <img class= "image-sample" src="./assets/image-sample.png"><br><br>
             <p>Design and develop a website which incorporates an external data feed, using one of the APIs discussed inclass.</p>       </div>
 
         <div class= "grid-item project project-4">
-            <a class= "project-title">Project 4 - Library</a><br><br>
+            <a class= "project-title">Library</a><br><br>
             <img class= "image-sample" src="./assets/image-sample.png"><br><br>
             <p>This assignment is meant to expand a student’s understanding of customized user experience and interactivityin a mobile context. Each student will select an object from which a user-site relationship will be translated</p>
         </div>
@@ -64,11 +67,11 @@
 
         <div class= "grid-item about-ali">
 
-            <a id= "home" style=" color: rgb(1, 30, 32); text-decoration: none;" href="https://ghula605.github.io/cd-javascript" >Ali Waqar</a>
+            <a class= "font-alter" id= "home" style=" color: rgb(1, 30, 32); text-decoration: none;" href="https://ghula605.github.io/cd-javascript" >Ali Waqar</a>
             <a>is a graphic designer and artist currently based in Muscat, Oman. He is pursuing a BFA in Communication Design at Parsons School of Design. Waqar primarily works in editorial design, photography, illustration and crochet. He is also interested in learning more about the web.</a><br><br>
-            <a>Email: </a><a id= "link" style="  color: rgb(1, 30, 32); text-decoration: none;" href="mailto: ghula605@newschool.edu">ghula605@newschool.edu</a><br>
-            <a>Arena: </a><a id= "link" style="  color: rgb(1, 30, 32); text-decoration: none;" href="https://www.are.na/ali-waqar">ali-waqar</a><br>
-            <a>IG: </a><a id= "link" style="  color: rgb(1, 30, 32); text-decoration: none;" href="https://www.instagram.com/ibn_waqar/?hl=en">@ibn_waqar</a><br>
+            <a>Email: </a><a class= "font-alter" style="  color: rgb(1, 30, 32); text-decoration: none;" href="mailto: ghula605@newschool.edu">ghula605@newschool.edu</a><br>
+            <a>Arena: </a><a class= "font-alter" style="  color: rgb(1, 30, 32); text-decoration: none;" href="https://www.are.na/ali-waqar">ali-waqar</a><br>
+            <a>IG: </a><a class= "font-alter" style="  color: rgb(1, 30, 32); text-decoration: none;" href="https://www.instagram.com/ibn_waqar/?hl=en">@ibn_waqar</a><br>
        
         </div>
 
@@ -76,7 +79,7 @@
         <div class= "grid-item about-class">
 
             <a>CD Studio: Javascript will focus on extending students' knowledge of code to web and cloud. Students will be learning JavaScript, the programming language of the Web. Students will be introduced to a variety of application from server-side network programming, game development, and the creation of desktop and mobile applications.</a><br><br>
-            <a id= "link" style="  color: rgb(1, 30, 32); text-decoration: none;" href="https://courses.newschool.edu/courses/PSAM3210">Learn more ➛</a><br>
+            <a class= "font-alter" style="  color: rgb(1, 30, 32); text-decoration: none;" href="https://courses.newschool.edu/courses/PSAM3210">Learn more ➛</a><br>
        
         </div>
 
