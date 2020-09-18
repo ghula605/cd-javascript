@@ -5,39 +5,22 @@ console.log('Is the scripts file working?');
 
 $( function() {
 
-    //toggle pink button
-    $( ".button-pink" ).click( function() {
+    //toggle projects
+    $( ".title-1" ).click( function() {
 
-        $(".container").toggleClass("pinkmode");
-
-    });
-
-    //toggle green button
-    $( ".button-green" ).click( function() {
-
-        $(".container").toggleClass("greenmode");
-
-    });
-
-    //toggle arabic about
-    $( "#arb" ).click( function() {
-
-         $(".container").toggleClass("arabic");
+        $(".project").toggleClass("show-content");
     
     });
 
-    //toggle projects
-    $( "#projects" ).click( function() {
+    //toggle about
+    $( ".title-2" ).click( function() {
 
-        $(".container").toggleClass("show");
-   
-   });
+        $(".about").toggleClass("show-content-2");
+    
+    });
 
-    //toggle projects
-    $( "#assignments" ).click( function() {
+    var elementToChange = document.getElementsByTagName("body")[0];
+    elementToChange.style.cursor = "url('cursor url with protocol'), auto";
 
-        $(".container").toggleClass("show-2");
-   
-   });
 
 })

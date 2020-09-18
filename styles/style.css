@@ -55,7 +55,19 @@ This is where your custom styles begin.
   font-family: "Nanum Myeongjo", serif;
 }
 
+.title.1 {
+}
+
+.title.2 {
+
+}
+
 .project {
+  display: none;
+}
+
+.project.show-content {
+  display: inline;
   border-bottom: none;
 }
 
@@ -64,8 +76,14 @@ This is where your custom styles begin.
   height: auto;
 }
 
+.image-sample-1 {
+  width: 100%;
+  height: auto;
+  border-color: 1.5px solid black;
+}
+
 .project-1 {
-  grid-column: 1;
+  display: none,
 }
 
 .project-2 {
@@ -90,6 +108,14 @@ This is where your custom styles begin.
   padding-bottom: 1em;
 }
 
+.about {
+  display: none;
+}
+
+.about.show-content-2 {
+  display: inline;
+}
+
 .about-ali {
   grid-column: 1;
 }
@@ -102,8 +128,11 @@ This is where your custom styles begin.
 @media (max-width: 800px) {
 
   .landing-page {
-    font-size: 40pt;
     height: auto;
+  }
+
+  .landing-text {
+    font-size: 40pt;
   }
 
   .grid_container {
